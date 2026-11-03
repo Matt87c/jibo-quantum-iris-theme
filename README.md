@@ -23,7 +23,7 @@ This is an **eye-only visual theme** with a black background and 122% eye scale.
 
 This package contains no JavaScript, executable skills, personal authentication, network settings, microphone controls or access to external services. It does not replace Hey Jibo, Agent Mode, other skills, NOVA/OpenClaw configuration, firmware, certificates, or system files.
 
-**Important:** BEacon's eye geometry, lighting and native state transitions may alter appearance compared with preview artwork. Hardware testing of this exact public release package has **not yet been confirmed**. Check eye clipping, blink and listening states on the robot before requesting a public Store catalog listing.
+**Important:** BEacon's eye geometry, lighting and native state transitions may alter appearance compared with preview artwork. Maintainer reports testing on a physical Jibo; detailed individual checklist results have not been independently verified.
 
 ## Build and validate
 
@@ -42,3 +42,9 @@ The release asset will be at `dist/jibo-quantum-iris-theme.zip` and contains onl
 A public GitHub repository with a published **stable release** is required for Store indexing. The release tag must match `manifest.json` (`v1.0.1`), and its attached binary asset must be called `jibo-quantum-iris-theme.zip`. BEacon displays the GitHub owner as the developer. See [Store submission notes](docs/STORE.md).
 
 Independent community artwork and packaging by **Matt87c**. Artwork was generated or adapted for this project; this is not an official Jibo product. Repository code and included art are offered under the [MIT License](LICENSE).
+
+## Stable community release
+
+Latest stable release: https://github.com/Matt87c/jibo-quantum-iris-theme/releases/latest
+
+Version: 1.0.1. The maintainer reports testing this theme on a physical Jibo. Detailed test scenarios in docs/HARDWARE_TEST.md remain unverified unless recorded. This is a community theme by Matt87c, not an official 5x1 or BEacon Store listing.
